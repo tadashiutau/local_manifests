@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Galaxy Core Prime SM-G360T1 (cprimeltemtr, MetroPCS) on LineageOS 14.1.
+     Based on Galaxy-MSM8916/local_manifests lineage-14.1.xml, trimmed to what this device needs. -->
+<manifest>
+  <!-- Device tree -->
+  <project path="device/samsung/cprimeltemtr" name="tadashiutau/android_device_samsung_cprimeltemtr" revision="lineage-14.1" />
+
+  <!-- Common trees (coreprimelte-common carries the NFC/CDMA guards) -->
+  <project path="device/samsung/coreprimelte-common" name="tadashiutau/android_device_samsung_coreprimelte-common" revision="cprimeltemtr-14.1" />
+  <project path="device/samsung/coreprimeltespr" name="Galaxy-MSM8916/android_device_samsung_coreprimeltespr" />
+  <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" />
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" />
+
+  <!-- Kernel (adds msm8916_sec_rossa_tmo_defconfig) and blobs (adds vendor/samsung/cprimeltemtr) -->
+  <project path="kernel/samsung/msm8916" name="tadashiutau/android_kernel_samsung_msm8916" revision="cprimeltemtr-14.1" />
+  <project path="vendor/samsung" name="tadashiutau/proprietary_vendor_samsung" revision="cprimeltemtr-14.1" />
+
+  <!-- Dependencies -->
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" />
+  <project path="external/stlport" name="LineageOS/android_external_stlport" />
+  <project path="external/busybox" name="LineageOS/android_external_busybox" />
+</manifest>
