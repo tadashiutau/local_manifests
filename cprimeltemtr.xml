@@ -3,7 +3,7 @@
      Based on Galaxy-MSM8916/local_manifests lineage-14.1.xml, trimmed to what this device needs. -->
 <manifest>
   <!-- Device tree -->
-  <project path="device/samsung/cprimeltemtr" name="tadashiutau/android_device_samsung_cprimeltemtr" revision="lineage-14.1" />
+  <project path="device/samsung/cprimeltemtr" name="tadashiutau/lineageos-galaxy-core-prime-sm-g360t1" revision="lineage-14.1" />
 
   <!-- Common trees (coreprimelte-common carries the NFC/CDMA guards) -->
   <project path="device/samsung/coreprimelte-common" name="tadashiutau/android_device_samsung_coreprimelte-common" revision="cprimeltemtr-14.1" />
