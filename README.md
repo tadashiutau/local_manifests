@@ -23,5 +23,6 @@ brunch cprimeltemtr
 |---|---|---|
 | device/samsung/cprimeltemtr | tadashiutau/android_device_samsung_cprimeltemtr | lineage-14.1 |
 | device/samsung/coreprimelte-common | tadashiutau/android_device_samsung_coreprimelte-common | cprimeltemtr-14.1 |
+| device/samsung/msm8916-common | tadashiutau/android_device_samsung_msm8916-common | cprimeltemtr-14.1 |
 | kernel/samsung/msm8916 | tadashiutau/android_kernel_samsung_msm8916 | cprimeltemtr-14.1 |
 | vendor/samsung | tadashiutau/proprietary_vendor_samsung | cprimeltemtr-14.1 |

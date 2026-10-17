@@ -8,7 +8,7 @@
   <!-- Common trees (coreprimelte-common carries the NFC/CDMA guards) -->
   <project path="device/samsung/coreprimelte-common" name="tadashiutau/android_device_samsung_coreprimelte-common" revision="cprimeltemtr-14.1" />
   <project path="device/samsung/coreprimeltespr" name="Galaxy-MSM8916/android_device_samsung_coreprimeltespr" />
-  <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" />
+  <project path="device/samsung/msm8916-common" name="tadashiutau/android_device_samsung_msm8916-common" revision="cprimeltemtr-14.1" />
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" />
   <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" />
 
